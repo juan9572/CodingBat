@@ -10,7 +10,7 @@ class Solution{
     */
     bool stringE(std::string str) {
         int count = 0;
-        for (int i=0; i<str.length(); i++) {
+        for (int i=0; i<str.size(); i++) {
             if (str[i] == 'e') count++;
         }
         return (count >= 1 && count <= 3);

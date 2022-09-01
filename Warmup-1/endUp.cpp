@@ -16,7 +16,7 @@ class Solution{
             std::transform(str.begin(),str.end(),str.begin(),::toupper);
             return str;
         }else{
-            int cutStrig = str.length() - 3;
+            int cutStrig = str.size() - 3;
             std::transform(str.begin()+cutStrig,str.end(),str.begin()+cutStrig,::toupper);
             return str;
         }
